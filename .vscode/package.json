@@ -1,0 +1,9 @@
+{
+    "configurationDefaults": {
+      "cpp": {
+        "editor.semanticHighlighting.enabled": true
+      }
+    }
+    
+    
+}

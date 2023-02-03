@@ -1,0 +1,150 @@
+{
+    "workbench.colorTheme": "One Monokai",
+    "workbench.colorCustomizations": {
+        "[One Monokai]": {
+            
+            "editor.selectionBackground": "#ffffff",
+            "editor.lineHighlightBackground": "#3b3a3a",
+
+    }
+    },
+    "files.associations": {
+        "type_traits": "cpp",
+        "xutility": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "xstring": "cpp",
+        "atomic": "cpp",
+        "bit": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "exception": "cpp",
+        "ios": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "iterator": "cpp",
+        "limits": "cpp",
+        "memory": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "typeinfo": "cpp",
+        "utility": "cpp",
+        "xfacet": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "xlocinfo": "cpp",
+        "xlocnum": "cpp",
+        "xmemory": "cpp",
+        "xstddef": "cpp",
+        "xtr1common": "cpp",
+        "functional": "cpp",
+        "xhash": "cpp"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "C_Cpp.errorSquiggles": "disabled",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\iagos\\OneDrive\\�rea de Trabalho\\Projetos\\C++\\Structures\\out",
+            "binaryPath": "c:\\Users\\iagos\\OneDrive\\�rea de Trabalho\\Projetos\\C++\\Structures\\out\\program.exe",
+            "binaryArgs": []
+        }
+    ],
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "nerdtree.alwaysShowSidebar": true,
+    "nerdtree.hideSidebarWhenOpenFile": false,
+    "editor.tokenColorCustomizations": {
+        "[One Monokai]": {
+            "textMateRules": [
+                {
+                    "name": "Loop",
+                    "scope":"keyword.control.for",
+                    "settings": {
+                        "foreground": "#9f7063",
+                    }
+                },
+                {
+                    "name": "Semicolon",
+                    "scope":"punctuation.terminator.statement",
+                    "settings": {
+                        "foreground": "#fb00ff",
+                        "fontStyle": "italic bold underline strikethrough"
+                    }
+                },
+                {
+                    "name": "Namespace",
+                    "scope":"entity.name.namespace",
+                    "settings": {
+                        "foreground": "#71f1fa",
+                    }
+                },
+                {
+                    "name": "Functions",
+                    "scope":"entity.name.function",
+                    "settings": {
+                        "foreground": "#00a2ff",
+                    }
+                },
+                {
+                    "name": "Class",
+                    "scope":"entity.name.type",
+                    "settings": {
+                        "foreground": "#f48d61",
+                    }
+                },
+                {
+                    "name": "Keyword",
+                    "scope":"keyword",
+                    "settings": {
+                        "foreground": "#6af386",
+                    }
+                },
+                {
+                    "name": "Property",
+                    "scope":"meta.body.class",
+                    "settings": {
+                        "foreground": "#f48d61",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "name": "Template <>",
+                    "scope":"punctuation.section.angle-brackets",
+                    "settings": {
+                        "foreground": "#ff0000" }
+                }
+            ]
+        }
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[One Monokai]": {
+            "enabled": true,
+            "rules": {
+                "namespace": "#71f1fa",
+                "function": "#00a2ff",
+                "method": "#00a2ff",
+                "property": "#00ffd5",
+                "variable": "#ffff",
+
+            }
+        }
+    }
+    
+    
+}
